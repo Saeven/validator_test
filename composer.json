@@ -1,0 +1,29 @@
+{
+    "name": "saeven/emailtest",
+    "description": "Validator doesn't work",
+    "license": "Proprietary",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "homepage": "http://circlical.com/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.8",
+	    "zendframework/zendframework": "2.4.7"
+    },
+    "autoload": {
+        "psr-0": {
+        }
+    },
+    "config": {
+        "component-dir": "vendor/components_dist"
+    }
+}
+
